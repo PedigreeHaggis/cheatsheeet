@@ -1,0 +1,104 @@
+/* universal selectors */
+
+* {
+  box-sizing: border-box;
+  color: #e9d5ca;
+}
+
+body {
+  background-color: #827397;
+  font-family: monospace;
+}
+
+hr {
+  width: 3%;
+  border-top: 10px;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+  border-style: dotted;
+  margin: 50px auto;
+}
+
+/* header section */
+
+header {
+  text-align: center;
+  margin: 28px;
+}
+
+header h2 {
+  font-size: 32px;
+  padding-top: 24px;
+  margin: 0;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 900;
+}
+
+ul {
+  margin: 24px auto;
+  list-style: none;
+}
+
+li {
+  padding: 16px;
+  display: inline;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #363062;
+}
+
+a:hover {
+  color: lightblue;
+}
+
+/* text property table */
+
+table {
+  margin: 24px auto;
+  border: 4px solid #363062;
+}
+
+th,
+td {
+  border: 1px solid #fff;
+  padding: 8px;
+}
+
+th {
+  font-size: 24px;
+  /* font-weight: 900; */
+  background-color: #4d4c7d;
+  font-weight: 900;
+  color: #000;
+}
+
+td {
+  font-size: 16px;
+}
+
+.table {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.table-header {
+  font-size: 28px;
+  font-weight: 900;
+}
+
+.property {
+  color: #4d4c7d;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+
+.w3schools {
+  font-size: 16px;
+}
