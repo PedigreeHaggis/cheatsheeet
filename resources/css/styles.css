@@ -1,46 +1,55 @@
 /* universal selectors */
-
 * {
   box-sizing: border-box;
-  color: #e9d5ca;
-}
-
-body {
-  background-color: #827397;
   font-family: monospace;
 }
 
-hr {
-  width: 3%;
-  border-top: 10px;
-  border-left: 0;
-  border-right: 0;
-  border-bottom: 0;
-  border-style: dotted;
-  margin: 50px auto;
+a {
+  text-decoration: none;
+  color: #f08a5d;
+}
+
+a:hover {
+  color: #3fc1c9;
+}
+
+em {
+  font-style: italic;
+}
+
+header,
+.table-header {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* header section */
 
 header {
+  background-color: #364f6b;
+  color: #eaeaea;
   text-align: center;
-  margin: 28px;
+  padding: 32px;
 }
 
-header h2 {
-  font-size: 32px;
-  padding-top: 24px;
-  margin: 0;
+nav {
+  position: relative;
+  margin-bottom: 150px;
 }
 
-h1 {
+.title {
+  display: inline;
   font-size: 50px;
   font-weight: 900;
+  position: absolute;
+  left: 3%;
 }
 
 ul {
-  margin: 24px auto;
+  display: inline;
   list-style: none;
+  padding: 24px;
+  position: absolute;
+  right: 3%;
 }
 
 li {
@@ -49,56 +58,86 @@ li {
   font-size: 20px;
 }
 
-a {
-  text-decoration: none;
-  color: #363062;
+.subtitle {
+  font-size: 48px;
+  padding: 32px;
 }
 
-a:hover {
-  color: lightblue;
-}
-
-/* text property table */
+/* Global table properties */
 
 table {
-  margin: 24px auto;
-  border: 4px solid #363062;
+  margin: 16px auto;
+  max-width: 999px;
 }
 
 th,
 td {
-  border: 1px solid #fff;
   padding: 8px;
 }
 
 th {
   font-size: 24px;
-  /* font-weight: 900; */
-  background-color: #4d4c7d;
   font-weight: 900;
-  color: #000;
 }
 
 td {
   font-size: 16px;
+  line-height: 1.4;
 }
 
-.table {
+.table-properties {
   text-align: center;
-  margin-bottom: 16px;
+  padding-bottom: 50px;
 }
 
 .table-header {
   font-size: 28px;
   font-weight: 900;
+  padding: 24px;
 }
 
 .property {
-  color: #4d4c7d;
   font-weight: 900;
+  color: #f08a5d;
   text-transform: capitalize;
 }
 
 .w3schools {
   font-size: 16px;
+}
+
+/* dark background sections */
+.dark {
+  background-color: #364f6b;
+  color: #f5f5f5;
+}
+
+.dark table {
+  border: 4px solid #3fc1c9;
+}
+.dark th {
+  background-color: #3fc1c9;
+}
+
+.dark td {
+  border: 1px solid #3fc1c9;
+}
+
+/* light background sections */
+.light {
+  background-color: #eaeaea;
+  color: #393e46;
+}
+
+.light table {
+  border: 4px solid #364f6b;
+}
+
+.light th {
+  background-color: #364f6b;
+  color: #f5f5f5;
+}
+
+.light td {
+  border: 1px solid #364f6b;
 }
