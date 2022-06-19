@@ -65,7 +65,7 @@ li {
 
 table {
   margin: 16px auto;
-  max-width: 999px;
+  width: 999px;
 }
 
 th,
